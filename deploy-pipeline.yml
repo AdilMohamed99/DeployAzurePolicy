@@ -1,7 +1,6 @@
 trigger: none
 
-pool:
-  vmImage: 'windows-latest'
+pool: 'Azure-pipelines(Self-hosted)'
 
 variables:
   foldername: 'src'
